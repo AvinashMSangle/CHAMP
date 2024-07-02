@@ -1,0 +1,28 @@
+/* Resets */
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100;
+}
+/* background wala kam */
+.background-image{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.indianexpress.com/2024/06/premium-35.jpg");
+    background-size: cover;
+    
+     /* center karane wala code */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ h1{
+    text-align: center;
+    color: rgba(238, 241, 21, 0.973);
+    font-family: League Gothic,sans-serif;
+    font-size: 90px;
+    padding-bottom: 25%;
+}
